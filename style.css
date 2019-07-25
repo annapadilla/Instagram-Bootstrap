@@ -1,0 +1,40 @@
+body{
+    background:white;
+    }
+.navbar {
+    padding: 0;
+}
+.navbar-brand span{
+    font-size: 33px;
+    }
+button{
+    float:right;}
+/* .nav-pills > li {
+	text-align: center;
+
+	display:inline-flex !important;
+        float:none !important;
+}
+.nav-pills{
+  text-align: center;
+} */
+a {color: gray;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: grey;
+}
+a:hover {color: gray; background: gainsboro;}
+.fake-img {height: 200px; border:1px solid white;}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
